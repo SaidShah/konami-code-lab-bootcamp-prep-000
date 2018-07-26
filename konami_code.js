@@ -22,9 +22,9 @@ var counter =0
    if(keyName===codes[counter]){
      counter++
 
-     if(counter==codes.length){
+     if(counter===codes.length){
         counter=0
-      return alert("Codes Entered Correctly");
+       alert("Codes Entered Correctly");
       
        
      }
