@@ -14,7 +14,7 @@ const codes = [
 function init() {
   // your code here
   var index =0
-  var keysPressed =[]
+
  document.addEventListener("keypress",(event)=>{
    var keyName = event.key
    if(keyName===codes[index]){
