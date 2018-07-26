@@ -10,27 +10,27 @@ const codes = [
   "b",
   "a"
 ];
-var index =0
+
 function init() {
 
-  
+  var counter =0
 
   document.addEventListener("keypress",(event)=>{
    
-   var keyName = event.key
+ //  var keyName = event.key
    
-   if(keyName===codes[index]){
-     index++
+   if(event.key===codes[counter]){
+     counter++
      
-     if(index===codes.length){
+     if(counter===codes.length){
        alert("Codes Entered Correctly");
-       index=0
+       counter=0
        
      }
      
    }else{
      
-     index=0
+     counter=0
      
    }
  })
