@@ -29,7 +29,7 @@ function init() {
      }
      
    }else{
-     alert("Codes Entered INCorrectly");
+
      counter=0
      
    }
