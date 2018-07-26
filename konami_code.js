@@ -29,7 +29,7 @@ var counter =0
      }
      
    }else{
- alert("Codes Entered ======================================Correctly");
+
      counter=0
      
    }
