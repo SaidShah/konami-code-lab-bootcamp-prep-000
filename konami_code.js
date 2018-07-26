@@ -16,7 +16,7 @@ function init() {
   var index =0
   var keysPressed =[]
  document.addEventListener("keypress",(event)=>{
-   var keyName = event.keypress
+   var keyName = event.key
    if(keyName===codes[index]){
      index++
      if(index===codes.length){
