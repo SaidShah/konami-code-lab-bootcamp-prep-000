@@ -19,7 +19,7 @@ function init() {
    var keyName = event.key
    if(keyName===codes[index]){
      index++
-     if(index===codes.length){
+     if(index===codes.length-1){
        alert("Codes Entered Correctly");
        index=0
      }
