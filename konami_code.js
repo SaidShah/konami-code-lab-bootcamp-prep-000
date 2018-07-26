@@ -21,7 +21,7 @@ function init() {
    
    if(event.key===codes[counter]){
      counter++
-     
+     alert("Codes Entered Correctly");
      if(counter===codes.length){
        alert("Codes Entered Correctly");
        counter=0
