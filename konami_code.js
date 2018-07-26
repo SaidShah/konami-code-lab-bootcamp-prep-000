@@ -10,10 +10,10 @@ const codes = [
   "b",
   "a"
 ];
+  var counter =0
 
 function init() {
 
-  var counter =0
 
   document.addEventListener("keypress",(event)=>{
    
