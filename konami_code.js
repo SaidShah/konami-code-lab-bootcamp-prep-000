@@ -15,7 +15,7 @@ const codes = [
 function init() {
 
 var counter =0
-  document.body("keydown",(event)=>{
+  document.body.addEventListener("keydown",(event)=>{
    
    var keyName = event.key
    
