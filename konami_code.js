@@ -10,11 +10,11 @@ const codes = [
   "b",
   "a"
 ];
-  var counter =0
+  
 
 function init() {
 
-
+var counter =0
   document.body("keydown",(event)=>{
    
    var keyName = event.key
