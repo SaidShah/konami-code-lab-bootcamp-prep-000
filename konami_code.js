@@ -17,9 +17,9 @@ function init() {
 
   document.body("keydown",(event)=>{
    
- //  var keyName = event.key
+   var keyName = event.key
    
-   if(event.key===codes[counter]){
+   if(keyName===codes[counter]){
      counter++
 
      if(counter==codes.length){
