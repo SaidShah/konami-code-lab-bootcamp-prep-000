@@ -22,7 +22,7 @@ function init() {
    if(keyName===codes[index]){
      index++
      
-     if(index===codes.length-1){
+     if(index===codes.length){
        alert("Codes Entered Correctly");
        index=0
        
