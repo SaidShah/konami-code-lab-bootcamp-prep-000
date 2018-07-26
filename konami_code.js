@@ -23,7 +23,8 @@ var counter =0
      counter++
 
      if(counter==codes.length){
-       alert("Codes Entered Correctly");
+       
+      return alert("Codes Entered Correctly");
        counter=0
        
      }
